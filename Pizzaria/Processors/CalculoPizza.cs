@@ -1,12 +1,11 @@
 ﻿using Pizzaria.Domain;
 using Pizzaria.Domain.ValueObject;
 
-
 namespace Pizzaria.Processors
 {
     public class CalculoPizza : ICalculaValor
     {
-        public void ValorPizza (Pizza pizza)
+        public void ValorPizza(Pizza pizza)
         {
             var totalIngredientes = Enum.GetValues(typeof(TipoIngrediente)).Cast<Enum>().Count(pizza.TipoIngrediente.HasFlag);
             var valorIngredientes = totalIngredientes * 2.0;
@@ -24,6 +23,5 @@ namespace Pizzaria.Processors
 
             pizza.Valor = valorIngredientes + valorTamanho + valorTipo + valorBorda;
         }
-       
     }
 }

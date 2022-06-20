@@ -39,13 +39,11 @@ namespace Pizzaria
 
             View("Pizza 1:", pizzaEmpalhada1);
             View("Pizza 3:", pizza4queijos1);
-
         }
+
         public static void View(string msg, Pizza pizza)
         {
             Console.WriteLine($"{pizza.Sabor} / {pizza.Valor:C} / {pizza.TipoPizza.ToString()}");
         }
     }
-
 }
-

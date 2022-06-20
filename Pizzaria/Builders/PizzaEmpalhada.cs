@@ -10,6 +10,7 @@ namespace Pizzaria.Builders
         public PizzaEmpalhada(ICalculaValor calculaValor) : base(calculaValor)
         {
         }
+
         public void PreparaBorda(Borda borda)
         {
             this.Pizza.Borda = borda;
@@ -49,5 +50,4 @@ namespace Pizzaria.Builders
             this.Pizza.TipoPizza = tipoPizza;
         }
     }
-
 }

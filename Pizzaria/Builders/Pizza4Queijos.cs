@@ -5,10 +5,10 @@ using Pizzaria.Processors;
 
 namespace Pizzaria.Builders
 {
-    public sealed class Pizza4Queijos : PizzaBuilderBase, IPizzaBuilder 
+    public sealed class Pizza4Queijos : PizzaBuilderBase, IPizzaBuilder
     {
-        public Pizza4Queijos(ICalculaValor calculoValor) : base (calculoValor)
-        { 
+        public Pizza4Queijos(ICalculaValor calculoValor) : base(calculoValor)
+        {
         }
 
         public void PreparaBorda(Borda borda)

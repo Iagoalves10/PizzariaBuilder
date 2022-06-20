@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Pizzaria.Domain.ValueObject
+﻿namespace Pizzaria.Domain.ValueObject
 {
     [Flags]
     public enum TipoIngrediente
@@ -21,7 +15,7 @@ namespace Pizzaria.Domain.ValueObject
         Alho = 10,
         Mussarela = 11,
         Provolone = 12,
-        QueijoMinas =13,
+        QueijoMinas = 13,
         BatataPalha = 14,
         Bacon = 15,
     }

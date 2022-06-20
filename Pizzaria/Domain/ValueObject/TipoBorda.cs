@@ -2,6 +2,6 @@
 {
     public enum TipoBorda
     {
-        Catupiry,Chocolate,Cheddar
+        Catupiry, Chocolate, Cheddar
     }
 }

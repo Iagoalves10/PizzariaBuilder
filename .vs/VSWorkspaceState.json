@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Pizzaria",
+    "\\Pizzaria\\Builders"
   ],
+  "SelectedNode": "\\Pizzaria\\Builders\\PizzaEmpalhada.cs",
   "PreviewInSolutionExplorer": false
 }

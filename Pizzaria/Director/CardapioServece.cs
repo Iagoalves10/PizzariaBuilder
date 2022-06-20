@@ -11,16 +11,14 @@ namespace Pizzaria.Director
             pizzaBuilder.PreparaMassa(tamanho);
             pizzaBuilder.EscolheIngredientes();
             pizzaBuilder.ValorPizza();
-
         }
 
-        public void PizzaComBordaRecheada (IPizzaBuilder pizzaBuilder,Tamanho tamanho, Borda borda)
+        public void PizzaComBordaRecheada(IPizzaBuilder pizzaBuilder, Tamanho tamanho, Borda borda)
         {
             pizzaBuilder.PreparaMassa(tamanho);
             pizzaBuilder.EscolheIngredientes();
             pizzaBuilder.PreparaBorda(borda);
             pizzaBuilder.ValorPizza();
-
         }
     }
 }

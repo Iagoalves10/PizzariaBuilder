@@ -7,6 +7,7 @@ namespace Pizzaria.Builders.Base
     {
         protected Pizza Pizza = null;
         protected readonly ICalculaValor CalculaValor;
+
         protected PizzaBuilderBase(ICalculaValor calculaValor)
         {
             this.CalculaValor = calculaValor;
@@ -21,6 +22,7 @@ namespace Pizzaria.Builders.Base
         {
             return Pizza;
         }
+
         protected void Init()
         {
             Pizza = new Pizza();
